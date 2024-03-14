@@ -12,7 +12,7 @@ public class Main {
         Plant plant = new Plant(name);
         System.out.println("Введенное вами название: ");
         System.out.println(plant.getTitle());
-        Sadovnik Vasia = new Sadovnik(plant);
+        Sadovnik Vasia = new Sadovnik();
         Vasia.filter(plant);
         System.out.println("Измененное Васей название: ");
         System.out.println(plant.getTitle());
